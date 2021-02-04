@@ -8,7 +8,7 @@ import { Paciente } from "../paciente";
   styleUrls: ["./hero-form.component.css"]
 })
 export class HeroFormComponent {
-  model = new Paciente(1714807722, "Cynthia", "Prtiz", "dir", 984480415);
+  model = new Paciente(17, "Cynthia", "Prtiz", "dir", 984480415);
 
   submitted = false;
 
